@@ -1,0 +1,136 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.about-title {
+    position: relative;
+}
+
+.about-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.about-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.about-sections {
+    display: flex;
+    gap: 80px;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.about-para {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width:90%;
+    font-size: 28px;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about-para-span{
+    color:#d82d83;
+}
+
+.about-tech-stack-title{
+    font-size: 30px;
+    background: linear-gradient(264deg, #333456 -60.09%, #F4ABC4 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Outfit;
+}
+
+.about-tech-stack {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 20px 0px;
+    background-image: url(../../assets/new/rainbow.svg);
+    background-color: #8f7c00;
+    background-position: cover;
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-attachment: scroll;
+    position: relative;
+}
+
+.tech-stack-wrapper {
+    display: flex;
+    width: max-content; 
+    animation: scroll 5s linear infinite alternate;
+}
+
+.about-tech-stack img {
+    height: 80px;
+    margin: 0 20px;
+    mix-blend-mode: multiply;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%); 
+    }
+    100% {
+        transform: translateX(calc(-100% + 100vw));
+    }
+}
+
+
+
+
+.about-achievements {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+
+}
+
+.about-achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+
+.about-achievement h1 {
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DF8908 50.41%, #B415FF 90.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-achievement p {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.about-achievement:hover {
+    transform: scale(1.12);
+    transition: 0.5s;
+}

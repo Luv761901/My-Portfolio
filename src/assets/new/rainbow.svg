@@ -1,0 +1,52 @@
+<svg id="skill-bg" xmlns="http://www.w3.org/2000/svg" width="1536" height="239" viewBox="0 0 1536 239">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: #ff888c;
+      }
+
+      .cls-3 {
+        fill: #f9dd1c;
+      }
+
+      .cls-4 {
+        fill: #5d78ff;
+      }
+
+      .cls-5 {
+        fill: #4fd295;
+      }
+
+      .cls-6 {
+        fill: #ff9326;
+      }
+
+      .cls-7 {
+        fill: #f122ff;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+
+      .cls-9 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle_33" data-name="Rectangle 33" class="cls-1">
+    <rect class="cls-8" width="1536" height="239"/>
+    <rect class="cls-9" x="0.5" y="0.5" width="1535" height="238"/>
+  </g>
+  <rect id="Rectangle_34" data-name="Rectangle 34" class="cls-2" width="256" height="239"/>
+  <rect id="Rectangle_35" data-name="Rectangle 35" class="cls-3" width="256" height="239" transform="translate(256)"/>
+  <rect id="Rectangle_36" data-name="Rectangle 36" class="cls-4" width="256" height="239" transform="translate(512)"/>
+  <rect id="Rectangle_37" data-name="Rectangle 37" class="cls-5" width="256" height="239" transform="translate(768)"/>
+  <rect id="Rectangle_38" data-name="Rectangle 38" class="cls-6" width="256" height="239" transform="translate(1024)"/>
+  <rect id="Rectangle_39" data-name="Rectangle 39" class="cls-7" width="256" height="239" transform="translate(1280)"/>
+</svg>
