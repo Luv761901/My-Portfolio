@@ -83,7 +83,7 @@
 .My_logo{
     display: none;
 }
-@media(max-width: 768px){
+@media (min-width: 415px) and (max-width: 1024px) {
     .hero {
         gap:30px;
         padding-top: 100px;

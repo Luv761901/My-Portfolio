@@ -73,7 +73,7 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
-@media(max-width: 768px) {
+@media (min-width: 415px) and (max-width: 1024px)  {
     .services h1 {
         font-size: 50px;
     }
