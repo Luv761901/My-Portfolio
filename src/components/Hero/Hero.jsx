@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./Hero.css";
 import  Luv_resume from "../../assets/Luv_resume.pdf";
+import Luv_logo from "../../assets/new/Luv_logo.png";
+
 const titles = ["Software Engineer", "Web Developer", "Problem Solver"];
 
 const Hero = () => {
@@ -19,6 +21,8 @@ const Hero = () => {
 
   return (
     <div id="home" className="hero">
+      <img className="My_logo" src={Luv_logo}
+       alt="" />
       <h1>
         I'm Luv Agarwal, <span className="changing-title">{currentTitle}</span>{" "}
         based in India.

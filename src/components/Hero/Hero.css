@@ -80,7 +80,14 @@
 .hero-resume:hover {
     border-color:#B415FF;
 }
+.My_logo{
+    display: none;
+}
 @media(max-width: 768px){
+    .hero {
+        gap:30px;
+        padding-top: 100px;
+    }
     .hero h1{
         text-align: center;
         width:70%;
@@ -93,5 +100,10 @@
         font-size: 20px;
         line-height: 30px;  
         color: gray;
+    }
+    .My_logo{
+        display: block;
+        width: 100px;
+        height: 100px;
     }
 }

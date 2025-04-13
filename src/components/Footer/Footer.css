@@ -62,3 +62,37 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+@media(max-width: 768px) {
+
+    .footer_img{
+        height: 200px;
+        width: 200px;
+        margin-left: 105px;
+    }
+    .footer-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap:30px;
+    }
+    .footer-top-left p{
+        font-size: 18px;
+        max-width: 400px;
+        text-align: center;
+    }
+    .footer-top-right{
+        display: flex;
+        align-items: start;
+        gap:20px;
+        margin-right: 20px;
+    }
+    .footer-subscribe{
+        font-size: 20px;
+        padding: 22px 25px;
+        border-radius: 50px;
+        background: linear-gradient(264deg, #333456 -60.09%, #F4ABC4 106.28%);
+        cursor: pointer;
+        transition: 0.3s;
+    }
+   
+}

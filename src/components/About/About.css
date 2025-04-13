@@ -41,16 +41,17 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width:90%;
+    width: 90%;
     font-size: 28px;
     font-weight: 500;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.about-para-span{
-    color:#d82d83;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.about-tech-stack-title{
+.about-para-span {
+    color: #d82d83;
+}
+
+.about-tech-stack-title {
     font-size: 30px;
     background: linear-gradient(264deg, #333456 -60.09%, #F4ABC4 106.28%);
     background-clip: text;
@@ -78,7 +79,7 @@
 
 .tech-stack-wrapper {
     display: flex;
-    width: max-content; 
+    width: max-content;
     animation: scroll 5s linear infinite alternate;
 }
 
@@ -90,8 +91,9 @@
 
 @keyframes scroll {
     0% {
-        transform: translateX(0%); 
+        transform: translateX(0%);
     }
+
     100% {
         transform: translateX(calc(-100% + 100vw));
     }
@@ -133,4 +135,41 @@
 .about-achievement:hover {
     transform: scale(1.12);
     transition: 0.5s;
+}
+
+@media(max-width: 768px) {
+    .about {
+        gap: 50px;
+        margin-top: 30px;
+    }
+
+    .about-title h1 {
+        font-size: 50px;
+    }
+
+    .about-title img {
+        width: 130px;
+    }
+
+    .about-para {
+        width: 60%;
+        font-size: 20px;
+    }
+
+    .about-tech-stack {
+        width: 60%;
+    }
+    .about-tech-stack-title{
+        font-size: 25px;
+    }
+    .about-achievements {
+        gap: 100px;
+        margin-right: 60px;
+    }    
+    .about-achievement p {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
 }
